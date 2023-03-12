@@ -1,0 +1,13 @@
+{
+  "name": "tailwind-course",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "watch": "yarn tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "build": "yarn tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.2.7"
+  }
+}

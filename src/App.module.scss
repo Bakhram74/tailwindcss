@@ -1,0 +1,22 @@
+.parent{
+    @apply my-4 w-1/3 text-center mx-auto shadow-xl;
+    .heading{
+        @apply text-2xl text-center text-white my-6 font-bold;
+    }
+    > div{
+        input{
+            @apply block w-full bg-white bg-opacity-10 border-r-2
+            border-transparent focus:border-slate-400 py-3 px-4 outline-none
+            placeholder:text-slate-500 text-slate-50 transition-colors
+            rounded-sm overflow-hidden;
+
+            //&:first-child{
+            //    @apply border-b border-slate-400    ;
+            //}
+        }
+    }
+
+    .button{
+    @apply   btn-primary transition-colors shadow ;
+    }
+}
